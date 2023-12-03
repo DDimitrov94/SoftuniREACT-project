@@ -1,0 +1,42 @@
+{
+    "5657c8a6-793e-416e-b21f-3c583d6740b7": {
+        "_ownerId": "9457675c-5300-4ab9-b280-87f72bfa42ff",
+        "title": "The one ",
+        "category": "portrait",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png",
+        "price": "200",
+        "summary": "nice",
+        "_createdOn": 1701598607600,
+        "_id": "5657c8a6-793e-416e-b21f-3c583d6740b7"
+    },
+    "da76ce2e-25df-43b5-adf7-da0d8d8906c9": {
+        "_ownerId": "9457675c-5300-4ab9-b280-87f72bfa42ff",
+        "title": "art 2",
+        "category": "blah",
+        "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nike.com%2Fbg%2Ft%2Fair-max-systm-shoes-kKHC4J&psig=AOvVaw2LyEELn_SK0Yjw6cBVUTqC&ust=1690043827227000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMCRkoOeoIADFQAAAAAdAAAAABAE",
+        "price": "200",
+        "summary": "art 2 discription",
+        "_createdOn": 1701608355441,
+        "_id": "da76ce2e-25df-43b5-adf7-da0d8d8906c9"
+    },
+    "b746f2ac-9f5b-492f-b963-5ea22cfc4240": {
+        "_ownerId": "9457675c-5300-4ab9-b280-87f72bfa42ff",
+        "title": "art 3 ",
+        "category": "abstract",
+        "imageUrl": "url?sa=i&url=https%3A%2F%2Fwww.nike.com%2Fbg%2Ft%2Fair-max-systm-shoes-kKHC4J&psig=AOvVaw2LyEELn_SK0Yjw6cBVUTqC&ust=1690043827227000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMCRkoOeoIADFQAAAAAdAAAAABAE",
+        "price": "1000",
+        "summary": "art 3 disc",
+        "_createdOn": 1701608395666,
+        "_id": "b746f2ac-9f5b-492f-b963-5ea22cfc4240"
+    },
+    "3cef31b4-223e-4a3d-9789-55f173fdb355": {
+        "_ownerId": "9457675c-5300-4ab9-b280-87f72bfa42ff",
+        "title": "art 4",
+        "category": "basdasad",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png",
+        "price": "499",
+        "summary": "sdadsa",
+        "_createdOn": 1701610934893,
+        "_id": "3cef31b4-223e-4a3d-9789-55f173fdb355"
+    }
+}

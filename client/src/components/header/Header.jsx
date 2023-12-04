@@ -4,14 +4,14 @@ export default function Header() {
     
     return (
         <header>
-            <h1>Paintings</h1>
+            <h1><Link className="home" to="/">Paintings</Link></h1>
             <nav>
                     <div id="user">
-                        <Link to="/">All Paintings</Link>
-                        <Link to="/">Add Painting</Link>
+                        <Link to="/paintings">All Paintings</Link>
+                        <Link to="/create">Add Painting</Link>
                         <Link to="/">Logout</Link>
-                        <Link to="/">Login</Link>
-                        <Link to="/">Register</Link>
+                        <Link to="/login">Login</Link>
+                        <Link to="/register">Register</Link>
                         <span>User</span>
                     </div>
             </nav>

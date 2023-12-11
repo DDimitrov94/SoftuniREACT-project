@@ -1,4 +1,4 @@
-#game-details {
+#painting-details {
     position: relative;
     display: block;
     width: 980px;
@@ -8,7 +8,7 @@
     transition: all 0.4s;
 }
 
-#game-details>h1 {
+#painting-details>h1 {
     color: #fff;
     font-family: "Agency FB";
     font-size: 55px;
@@ -28,33 +28,23 @@
     background-color: whitesmoke;
 }
 
-.game-header {
+.painting-header {
     position: relative;
     padding: 25px;
     height: 40%;
 }
 
-.game_header>h1 {
+.painting_header>h1 {
     color: black;
     margin-top: 5px;
     font-size: 36px;
     font-weight: 400;
 }
 
-.game_header>h4 {
+.painting_header>h4 {
     color: #555;
     font-size: 23px;
     font-weight: 400;
-}
-
-.levels {
-    display: inline-block;
-    margin-top: 15px;
-    color: #555;
-    padding: 7px;
-    border-radius: 5px;
-    background-color: #b4b6ee;
-    border: 1px solid rgba(218, 181, 181, 0.829);
 }
 
 .type {
@@ -64,7 +54,7 @@
     margin-left: 10px;
 }
 
-.game-img {
+.painting-img {
     position: relative;
     float: left;
     margin-left: 15px;
@@ -79,7 +69,7 @@
     height: 50%;
 }
 
-.game-summary {
+.painting-summary {
     margin-top: 15px;
     padding: 60px;
     height: 50%;

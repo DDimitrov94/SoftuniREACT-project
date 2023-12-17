@@ -85,7 +85,7 @@ export default function PaintingDetails() {
 
                 {userId === painting._ownerId && (
                     <div className="buttons">
-                        <Link to={pathToUrl("paintings/edit", { paintingId })} className="button">Edit</Link>
+                        <Link to={pathToUrl("/paintings/:paintingId/edit", { paintingId })} className="button">Edit</Link>
                         <button className="button" onClick={deleteButtonClickHandler}>Delete</button>
                     </div>
                 )}

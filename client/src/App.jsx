@@ -11,7 +11,7 @@ import Register from './components/register/Register';
 import PaintingList from './components/painting-list/PaintingList';
 import PaintingCreate from './components/painting-add/AddPainting'
 import PaintingDetails from './components/painting-details/PaintingDetails';
-import PaintigEdit from './components/painting-details/PaintingDetails';
+import PaintingEdit from './components/painting-edit/PaintingEdit';
 
 import ErrorBoundary from './components/ErrorBoundary';
 import AuthGuard from './components/guards/AuthGuard';
@@ -30,7 +30,7 @@ return (
                     <Route path="/paintings/:paintingId" element={<PaintingDetails />} />
                     <Route element={<AuthGuard />}>
                         <Route path="/paintings/create" element={< PaintingCreate/>} />
-                        <Route path="/paintings/edit" element={<PaintigEdit />} />
+                        <Route path="/paintings/:paintingId/edit" element={<PaintingEdit />} />
                         <Route path="/logout" element={<Logout />} />
                     </Route>
                 </Routes>

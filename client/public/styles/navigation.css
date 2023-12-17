@@ -34,11 +34,11 @@ header h1 {
 }
 
 header nav {
-    font-size: auto;
+    font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     right: 60px;
-    bottom: 8px;
+    bottom: 17px;
 }
 
 header nav>* {

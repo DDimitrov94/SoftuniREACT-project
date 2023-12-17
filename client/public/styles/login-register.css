@@ -27,13 +27,14 @@
 }
 
 .brand-logo {
-    height: 100px;
-    width: 100px;
-    background: url("../images/icon-paintingpad-2.png");
+    height: 120px;
+    width: 120px;
+    background: url("../images/Login\ logo.png");
     margin: auto;
-    border-radius: 50%;
+    border-radius: 20%;
     box-sizing: border-box;
-    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+    /* box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white; */
+    background-size:contain;
 }
 
 .container>h1 {

@@ -43,7 +43,7 @@ export default function Login() {
                     />
                     <input type="submit" className="btn submit" value="Login" />
                     <p className="field">
-                        <span>If you don't have profile click <Link to="/register">here</Link></span>
+                        <span>Don't have a profile? <Link to="/register">Register now</Link></span>
                     </p>
                 </div>
             </form>

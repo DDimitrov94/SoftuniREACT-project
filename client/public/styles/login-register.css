@@ -2,22 +2,24 @@
     position: relative;
     width: 650px;
     height: auto;
-    border-radius: 20px;
+    border-radius: 100px;
+    margin-top: 80px;
     padding: 40px;
     box-sizing: border-box;
-    background: #3e4443;
-    box-shadow: 0px 0px 32px 0px #49535e, -14px -14px 20px #191c21;
+    background: #dacfbc;
+    box-shadow: 0px 0px 0px 0px #2c84e3, 0px 0px 100px #5e6b80;
 }
 
 #register-page {
     position: relative;
     width: 650px;
     height: auto;
-    border-radius: 20px;
+    border-radius: 100px;
+    margin-top: 20px;
     padding: 40px;
     box-sizing: border-box;
-    background: #3e4443;
-    box-shadow: 0px 0px 32px 0px #49535e, -14px -14px 20px #191c21;
+    background: #dacfbc;
+    box-shadow: 0px 0px 0px 0px #2c84e3, 0px 0px 100px #5e6b80;
 }
 
 .container {
@@ -87,7 +89,7 @@ input[type="email"] {
     margin-top: 10px;
     font-size: 24px;
     border-radius: 50px;
-    box-shadow: inset 6px 6px 6px #c0c2c5, inset -6px -6px 6px white;
+    box-shadow: inset 3px 3px 3px #c0c2c5, inset -6px -6px 6px white;
 }
 
 label[for="terms"]>input {
@@ -96,14 +98,13 @@ label[for="terms"]>input {
 
 .btn.submit {
     margin-top: 30px;
-    background: #778e9c;
+    background: #739af0;
     height: 60px;
     border-radius: 20px;
     color: white;
     font-size: 26px;
     cursor: pointer;
     font-weight: 900;
-    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
     transition: 0.5s;
 }
 
@@ -120,11 +121,11 @@ label[for="terms"]>input {
 .field>span {
     position: absolute;
     font-size: 18px;
-    bottom: 17px;
-    right: 8px;
+    bottom: 30px;
+    right: 180px;
     text-decoration: none;
     color: black;
-    background: rgb(235, 157, 142);
+    background: #739af0;
     border-radius: 10px;
-    padding: 5px;
+    padding: 8px;
 }

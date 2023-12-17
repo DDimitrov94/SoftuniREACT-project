@@ -15,6 +15,8 @@ function Home({
             .then(result => setlatestPaintings(result));
     }, [])
 
+    // throw new Error('something is wrong');
+
     return (
         <section id="welcome-world">
 

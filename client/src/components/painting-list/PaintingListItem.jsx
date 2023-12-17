@@ -8,9 +8,22 @@ export default function paintingListItem({
     price,
 }) {
     return (
+        // <div className="allPaintings">
+        //     <div className="allPaintings-info">
+        //         <img src={imageUrl} />
+        //         <div className="allPaintings-info-text">
+        //             <h6>Category: {category}</h6>
+        //             <h2>Price: {title + " "}{price + "$"}</h2>
+        //         </div>
+        //             <Link to={`/paintings/${_id}`} className="details-button">Details</Link>
+        //     </div>
+        // </div>
+
         <div className="allPaintings">
             <div className="allPaintings-info">
-                <img src={imageUrl} />
+                <p>
+                    <img src={imageUrl} />
+                </p>
                 <div className="allPaintings-info-text">
                     <h6>Category: {category}</h6>
                     <h2>Price: {title + " "}{price + "$"}</h2>
@@ -18,6 +31,5 @@ export default function paintingListItem({
                 </div>
             </div>
         </div>
-
     );
 }
